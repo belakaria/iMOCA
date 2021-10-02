@@ -11,7 +11,6 @@ The code is implemented in Python and requires the following packages:
 
 3. [sklearn.gaussian_process](https://scikit-learn.org/stable/modules/gaussian_process.html)
 
-4. [pygmo](https://esa.github.io/pygmo2/install.html) 
 
 ### Citation
 If you use this code in your academic work please cite our JAIR paper: "A General Output Space Entropy Search Framework for Multi-Objective Bayesian Optimization " 
