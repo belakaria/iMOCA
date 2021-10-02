@@ -14,6 +14,5 @@ The code is implemented in Python and requires the following packages:
 4. [pygmo](https://esa.github.io/pygmo2/install.html) 
 
 ### Citation
-If you use this code in your academic work please cite our JAIR paper: "A General Output Space Entropy Search Framework for Multi-Objective Bayesian Optimization ", Syrine Belakaria, Aryan Deshwal, Janardhan Rao Doppa.
-and our workshop paper "Information-Theoretic Multi-Objective Bayesian Optimization with Continuous Approximations ,  Syrine Belakaria, Aryan Deshwal, Janardhan Rao Doppa.
-"
+If you use this code in your academic work please cite our JAIR paper: "A General Output Space Entropy Search Framework for Multi-Objective Bayesian Optimization " 
+and our workshop paper "Information-Theoretic Multi-Objective Bayesian Optimization with Continuous Approximations" ,  Syrine Belakaria, Aryan Deshwal, Janardhan Rao Doppa.
