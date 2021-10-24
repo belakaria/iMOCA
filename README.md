@@ -13,5 +13,21 @@ The code is implemented in Python and requires the following packages:
 
 
 ### Citation
-If you use this code in your academic work please cite our JAIR paper: "A General Output Space Entropy Search Framework for Multi-Objective Bayesian Optimization " 
-and our workshop paper "Information-Theoretic Multi-Objective Bayesian Optimization with Continuous Approximations" ,  Syrine Belakaria, Aryan Deshwal, Janardhan Rao Doppa.
+If you use this code in your academic work please cite our papers:
+```bibtex
+
+@article{belakaria2021output,
+  title={Output Space Entropy Search Framework for Multi-Objective Bayesian Optimization},
+  author={Belakaria, Syrine and Deshwal, Aryan and Doppa, Janardhan Rao},
+  journal={Journal of Artificial Intelligence Research},
+  year={2021}
+}
+
+@article{belakaria2020information,
+  title={Information-Theoretic Multi-Objective Bayesian Optimization with Continuous Approximations},
+  author={Belakaria, Syrine and Deshwal, Aryan and Doppa, Janardhan Rao},
+  journal={Workshop on machine learning for engineering modeling, simulation and design (NeurIPS)},
+  year={2020}
+}
+
+````
