@@ -13,7 +13,7 @@ The code is implemented in Python and requires the following packages:
 
 
 ### Citation
-If you use this code in your academic work please cite our papers:
+If you use this code please cite our papers:
 ```bibtex
 
 @article{belakaria2021output,
