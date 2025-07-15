@@ -28,12 +28,11 @@ intial_number = int(args[3])
 total_iterations = int(args[4])
 sample_number = int(args[5])
 fidelity_grid_size = int(args[6])  # number of fidelities
-approx = args[7]  # 'TG' for True Gaussian, 'EG' for Empirical Gaussian
+approx = args[7]  # 'TG' or 'EG'
 paths = "."
 np.random.seed(seed)
 
 
-fir_num = 1
 # defining the cost for each fidelity
 # for example if we have 3 fidelities where the first fidelity cost 1 min and the last cost 10 min, the cost vector should be
 # cost=[1,3,10]
@@ -50,7 +49,7 @@ Fun_bounds = [bound] * d
 
 # Initialization
 M = [len(i) for i in cost]
-temp0 = list(np.random.choice(fidelity_grid_size - 1, fir_num, replace=False)) + [
+temp0 = list(np.random.choice(fidelity_grid_size - 1, intial_number, replace=False)) + [
     fidelity_grid_size - 1
 ]
 temps0 = np.zeros(fidelity_grid_size)
@@ -73,7 +72,7 @@ allcosts = [total_cost]
 
 x = np.random.uniform(bound[0], bound[1], size=(1000, d))
 candidate_x = [np.asarray([]) for i in range(len(functions))]
-temp1 = list(np.random.randint(0, np.size(x, 0), fir_num + 1))
+temp1 = list(np.random.randint(0, np.size(x, 0), intial_number + 1))
 
 for i in range(len(functions)):
     candidate_x[i] = np.c_[temp0 * np.ones(1), x[temp1]]
